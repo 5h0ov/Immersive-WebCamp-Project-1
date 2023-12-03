@@ -197,8 +197,12 @@ letter-spacing: 0.5px;
     background-color: white;
     border-radius: 30px;
     margin-right: 30px;
+    transition: transform 0.5s;
   }
   
+  .box:hover{
+    transform: scale(1.1);
+  }
   .box h3{
     font-family: Montagu Slab;
     font-size: 22px;

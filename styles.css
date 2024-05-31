@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #F2F7FF;;
+    background-color: #F2F7FF;
 }
 
 /* header portion */
@@ -46,8 +46,8 @@ li:hover{
 
 .hero-img{
     position: absolute;
-    width: 709px;
-    height: 974px;
+    width: 640px;
+    height: 930px;
     top: 60px;
     left: 702px;
     z-index: 1;
@@ -180,7 +180,7 @@ letter-spacing: 0.5px;
 .container {
     display: flex;
     flex-direction: column;
-    margin-left: 200px;
+    margin-left: 120px;
     
   }
   
@@ -261,7 +261,7 @@ letter-spacing: 0.3px;
 .review{
     position: relative;
     margin-top: 70px;
-    height: 520px;
+    min-height: 600px;
     background-color: #F2F7FF;;
     text-align: center;
 }
@@ -278,23 +278,36 @@ letter-spacing: 0.5px;
 margin-left:  100px;
 }
 
+.card1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .rev-boxes{
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 }
 
 .rbox1{
     height: 210px;
     width: 570px;
     margin-top:50px;
-    text-align: center;
     font-feature-settings: 'salt' on, 'liga' off;
     font-family: Poppins;
     font-size: 14px;
     border-radius: 15px; 
     border : 50px 50px 50px 50px ;
-    margin-left: 160px;
     background: url(./images/bubble.png) center center / 100% 100% no-repeat;
+    padding: 20px;
 }
 
 .rbox2{
@@ -307,8 +320,8 @@ margin-top:50px;
 text-align: center;
     border-radius: 15px; 
     border : 50px 50px 50px 50px ;
-    margin-left: 300px;
     background: url(./images/bubble.png) center center / 100% 100% no-repeat;
+    padding: 20px;
 }
 
 .rbox1 h1 , .rbox2 h1{
@@ -326,24 +339,16 @@ span{
 .rev-boxes .img img{
     height: 50px;
     width: 50px;
-    margin-top: 270px;
-    margin-left: -170px;
 }
 
 .rev-boxes .img h3{
     font-family: Inter;
-    position: relative;
-    display: flex;
     font-size: 20px;
     color: black;
-    margin-top: -40px;
-    left: 40px;
 }
 
 .rev-boxes .img h6{
     font-family: Inter;
-    left: 40px;
-    position: relative;
     display: flex;
     font-size: 15px;
     color: #4F4F4F;
@@ -374,25 +379,25 @@ span{
 
 /* QUESTIONS SECTION */
 .questions{
-    position: relative;
-    text-align: center;
     height: 400px;
-    justify-content: center;
     font-family:Poppins;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
 }
 
 .questions h1{
     font-size: 60px;
     margin-top: 80px;
-    margin-left:70px;
 }
 
 .questions p{
-    text-align: ce;
+    text-align: center;
     font-size: 18px;
     width: 500px;
-    margin-left:500px;
     padding:20px;
     font-family: Poppins;
     font-weight: 500;
@@ -410,8 +415,6 @@ font-weight: 600;
     background: #094B72;
     border:none;
     color: white; 
-    margin-left: 10px;
-    margin-top: 20px;
 }
 .questions button i{
     padding: 10px;
@@ -497,7 +500,7 @@ font-weight: 600;
 
 .left-section{
     display: flex;
-    margin-left: 1000px;
+    margin-left: 900px;
     margin-top: -250px;
 }
 
